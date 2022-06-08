@@ -1,0 +1,140 @@
+.logo{
+    width: 100px;
+    height: 100px;
+    margin-top: 50px;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+@font-face{
+    src: url(../Font/DancingScript-Bold.ttf);
+    font-family: Bold;
+}
+.title{
+    font-family: Bold;
+    position: absolute;
+    top: 70px;
+    left: 100px;
+    font-size: 40px;
+}
+.Title{
+    font-family: BOld;
+    position: absolute;
+    top: 250px;
+    left: 1200px;
+    font-size: 50px;
+}
+.Title1{
+    font-family: BOld;
+    position: absolute;
+    top: 250px;
+    left: 1095px;
+    font-size: 50px;
+}
+.Title2{
+    font-family: BOld;
+    position: absolute;
+    top: 250px;
+    left: 1175px;
+    font-size: 50px;
+}
+.Title3{
+    font-family: BOld;
+    position: absolute;
+    top: 250px;
+    left: 1000px;
+    font-size: 50px;
+}
+.clear{
+    clear: both;
+}
+.all{
+    background-color: #F5F569;
+    margin-top: 20px;
+}
+.bg{
+    margin-left: 1120px;
+    background-color: #F5F569;
+    width: 400px;
+    height: 450px;
+}
+.noti{
+    text-decoration: none;
+    color: black;
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 5px;
+}
+.noti2{
+    width: 40%;
+    position: absolute;
+    top: 270px;
+    left: 70px;
+}
+.noti_bar{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 50px;
+}
+.noti_title{
+    text-align: center;
+    font-size: 20px;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+.support{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin-top: 70px;
+    background-color: #e2e7e7;
+    padding: 30px 0px 30px 30px ;
+}
+
+.support_icon p{
+    display: inline-block;
+    padding: 30px 0px;
+    margin-left: 30px;
+}
+.footer{
+    background-color: #212529;
+    height: 230px;
+}
+
+.footer_div a{
+    margin: 50px 20px 0px;
+    display: inline-block;
+    color: gray;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.footer_div p{
+    margin-top: 20px;
+    color: gray;
+    font-weight: bold;
+}
+
+.footer_icon a{
+    color: gray;
+    margin: 20px 10px 0px;
+    display: inline-block;
+}
+.product2{
+    margin-top: 80px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    text-align: center;
+}
+.product1{
+    width: 300px;
+    height: 300px;
+}
+.name{
+    margin-top: 5px;
+    margin-bottom: 40px;
+}
